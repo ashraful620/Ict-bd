@@ -1,0 +1,80 @@
+body{
+	background: url('https://i.ibb.co/tZDTJZv/bg-2.png');
+	background-position: center center;
+	font-family: 'Open Sans', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+div{
+	overflow: hidden;
+}
+
+/* header css */
+.img-left img{
+	width: 34%;
+}
+.img-mid img{
+	width: 60%;
+}
+.img-right img{
+	width: 43%;
+}    
+nav.navbar {
+    padding: 0;
+    border-top: 2px solid #ddd;
+    border-radius: 5px;
+    background: #0000000f;
+    background-repeat: no-repeat;
+    background-position: left top;
+    color: #111;    
+}
+.nav-link {
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-item {
+    padding: 0px 10px;
+}
+.slider img {
+    width: 90%;
+    margin-left: 93px;
+    margin-top: 23px;
+}
+.reg-area h5 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #666666;
+}
+.reg-area li {
+    color: #666666;
+    font-size: 15px;
+}
+
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+	.nav-item {
+	padding: 0px 2px;
+}
+.slider img {
+	width: 100%;
+	margin-left: 0px;
+}
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
